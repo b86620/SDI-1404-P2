@@ -15,11 +15,12 @@ cameraOnATM = true;
 
 // Prompt so I can return a value to my procedure
 
+
 var getawayPrompt;
 
 getawayPrompt = prompt("Do we have a getaway car?");
 
-if (getawayPrompt === yes) {
+if (getawayPrompt === "yes") {
         
     console.log("We have a getaway car, lets go hit those ATMs!");
     
